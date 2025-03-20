@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sign{
+    color: black;
+    height: 2rem;
+    margin: 2rem;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 1.5rem;
+}
+.icons{
+    display: flex;
+    margin: 2rem;
+    height:50px ;
+    background-color: gray;
+    justify-content: center;
+    width: 130px;
+    justify-content: space-around;
+}
+.icon{
+    margin-top: 10px;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+i{
+    padding: 8px;
+}
+.fa-google-plus{
+    color: red;
+}
+.fa-facebook{
+    color: darkblue;
+}
+.fa-twitter{
+    color: blue;
+}

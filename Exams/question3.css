@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 5rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+    height: 50vh;
+    width: 50vw;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.right{
+    width: 50%;
+    margin-left: 4rem;
+    height: 100%;
+}
+.down{
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+.up{
+        margin-top: 2rem;
+        margin-left: 2rem;
+}
+input,label,textarea{
+    padding-top: 20px;
+    margin: 20px;
+}
+button{
+    margin-left: 2rem;
+    background-color: blue;
+    color: white;
+    border: none;
+}

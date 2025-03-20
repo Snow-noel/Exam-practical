@@ -1,0 +1,6 @@
+table,td,tr{
+    border-collapse: collapse;
+}
+th{
+    color: purple;
+}
